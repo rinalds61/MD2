@@ -25,7 +25,8 @@ jobs:
 
         #- name: Install dependecies
         #  run: pip install -r py-gre/requirements.txt
-
+          env:
+           ACTIONS_STEP_DEBUG: true
 
     deploy-to-dev:
         name: Deploy-to-DEV
