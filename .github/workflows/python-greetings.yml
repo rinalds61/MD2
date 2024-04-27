@@ -11,7 +11,7 @@ on:
 jobs: 
     install-pip-deps:
       name: Install pip deps
-      runs-on: self-hosted
+      runs-on: latest-ubuntu
 
       steps:
         - uses: actions/checkout@v4
